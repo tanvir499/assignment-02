@@ -12,3 +12,15 @@
     }
 }
 
+ @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        /* Apply the animation to the badge */
+        .animate-infinite-spin {
+            animation: spin 3s linear infinite; /* 3 seconds duration, linear timing, infinite repetition */
+        }
